@@ -16,7 +16,7 @@ import manage from './Assets/CompositeLayer.png'
 function App() {
   return (
    <>
-   <div className='px-6 max-w-6xl mx-auto'>
+   <div className='px-6 max-w-6xl mx-auto overflow-x-hidden'>
     <Header className=''/>
 
       {/* Hero section */}
@@ -133,6 +133,7 @@ function App() {
       
     </div>
     <Footer/>
+    <h2 className='text-gray-400 italic text-center pb-5'>Coded by Bilal Ahad</h2>
    </>
     
   );
